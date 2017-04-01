@@ -337,7 +337,7 @@ name=str.split(file,'.')[0]+'_'+str(int(T))+'_all.txt'
 f=open(name,'w')
 
 f.write('The new temperature and pressure are %s K and %s Pa \n' % (T,P)) 
-f.write('Total adsorbate: %s. The masses of the first and second adsorbate are %s amu and %s amu \n' % (n_ads, args.mass1, args.mass2)) 
+f.write('Total adsorbate: %s. Zeolite: %s. The masses of the first and second adsorbate are %s amu and %s amu \n' % (n_ads, args.zeolite, args.mass1, args.mass2)) 
 
  
 
